@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NoStyleSheet</title>
+</head>
+<style>
+    *{
+        margin-left: 10px;
+    }
+    .heading{
+        color: rgb(3, 189, 3);
+    }
+    ul {
+        list-style: none;
+        
+        padding: 0;
+        margin: 0;
+    }
+
+    ul li a {
+        text-decoration: none;
+        text-decoration-color: none;
+        display: flex;
+        background: rgb(82, 79, 79);
+        border: 1px groove;
+        margin: 5px 0px;
+        padding: 5px 1px 5px 1px;
+        text-align: center;
+        width: 120px;
+        color: white;
+    }
+    .flex-container{
+        align-items: flex-start;
+        flex-direction: row;
+    }
+    li a:hover {
+        background-color: black;
+    }
+    a{
+        color: black;
+    }
+    fieldset{
+        background-color: rgb(226, 218, 218);
+        border: 1px groove;
+    }
+</style>
+
+<body>
+    <h1 class="heading">Welcome to My Homepage</h1>
+    <p>Use the menu to select different Stylesheets</p>
+    <ul class="flex-container">
+        <li><a href="stylesheet1.html"> Stylesheet 1</a></li>
+        <li><a href="stylesheet2.html"> Stylesheet 2</a></li>
+        <li><a href="stylesheet3.html" style="background-color: rgb(6, 168, 54);color: white;font-size: medium;"> Stylesheet 3</a></li>
+        <li><a href="stylesheet4.html"> Stylesheet 4</a></li>
+        <li> <a href="nosytlesheet.html">No Stylesheet</a></li>
+    </ul>
+
+    <h1 class="heading">Same Page Different Stylesheets</h1>
+    <p>This is a demonstration of how different stylesheets can change the layout of your HTML page. You can change the
+        layout of this page by selecting different stylesheets in the menu, or by selecting one of the following links:
+    </p>
+    <a href="stylesheet1.html">Stylesheet1</a>,
+    <a href="stylesheet2.html">Stylesheet2</a>,
+    <a href="stylesheet3.html">Stylesheet3</a>,
+    <a href="stylesheet4.html">Stylesheet4</a>.
+    <h2 class="heading">No Style</h2>
+    <p>This page uses DIV elements to group different sections of the HTML page. Click here to see how the page looks
+        like with no stylesheet:</p>
+    <a href="nosytlesheet.html">NoStylesheet</a>.
+    <fieldset>
+    <h2 class="heading">Side-Bar</h2>
+    <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet
+        dolore magna aliquam erat volutpat.</p><br>
+        </fieldset>
+   <center> <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet
+        dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper
+        suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in
+        vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et
+        iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi.
+    </p></center>
+</body>
+
+</html>

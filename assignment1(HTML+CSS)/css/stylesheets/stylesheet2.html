@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NoStyleSheet</title>
+</head>
+<style>
+    * {
+        font-family: Arial, Helvetica, sans-serif;
+        background-color: rgb(192, 5, 5);
+    }
+
+    .white {
+        color: white;
+    }
+
+    ul {
+        list-style: none;
+        position: relative;
+        padding: 0;
+        margin: 0;
+        float: right;
+        width: 15%;
+    }
+
+    ul li a {
+        text-decoration: none;
+        text-decoration-color: none;
+        display: block;
+        background: rgb(192, 5, 5);
+        border: 1px groove rgb(146, 143, 143);
+        margin: 5px 0px;
+        padding: 5px 1px 5px 1px;
+        text-align: center;
+        color: white;
+    }
+
+    li a:hover {
+        background-color: #fff;
+        color: rgb(192, 5, 5);
+
+    }
+
+    fieldset {
+        background-color: #fff;
+        border: 1px groove;
+    }
+
+    a {
+        background-color: #fff;
+        color: rgb(192, 5, 5);
+        text-decoration-line: none;
+    }
+</style>
+
+<body>
+    <div class="white">
+        <h1>Welcome to My Homepage</h1>
+        <p>Use the menu to select different Stylesheets</p>
+    </div>
+    <fieldset>
+        <ul style="background-color: white;">
+            <li><a href="stylesheet1.html"> Stylesheet 1</a></li>
+            <li><a href="stylesheet2.html" style="background-color: white;color: red;font-size: medium;"> Stylesheet
+                    2</a></li>
+            <li><a href="stylesheet3.html"> Stylesheet 3</a></li>
+            <li><a href="stylesheet4.html"> Stylesheet 4</a></li>
+            <li> <a href="nosytlesheet.html">No Stylesheet</a></li>
+        </ul>
+
+        <h1 style="background-color: white;color:rgb(192, 5, 5);">Same Page Different Stylesheets</h1>
+        <p style="background-color: white;">This is a demonstration of how different stylesheets can change the layout
+            of your HTML page. You can change the
+            layout of this page by selecting different stylesheets in the menu, or by selecting one of the following
+            links:
+        </p>
+        <a href="stylesheet1.html">Stylesheet1</a>,
+        <a href="stylesheet2.html">Stylesheet2</a>,
+        <a href="stylesheet3.html">Stylesheet3</a>,
+        <a href="stylesheet4.html">Stylesheet4</a>.
+        <h2 style="background-color: white;color: rgb(192, 5, 5);">No Style</h2>
+        <p style="background-color: #fff;">This page uses DIV elements to group different sections of the HTML page.
+            Click here to see how the page looks
+            like with no stylesheet:</p>
+        <a href="nosytlesheet.html">NoStylesheet</a>.
+        <fieldset style="background-color: rgb(240, 176, 176);margin: 0;">
+        <div style="background-color: rgb(240, 176, 176);margin: 0;">
+            <h2 style="background-color: rgb(240, 176, 176);color:rgb(192, 5, 5);">Side-Bar</h2>
+            <p style="background-color: rgb(240, 176, 176);color: rgb(192, 5, 5);">Lorem ipsum dolor sit amet,
+                consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet
+                dolore magna aliquam erat volutpat.</p><br>
+        </div>
+        </fieldset>
+    </fieldset>
+    <center>
+        <p class="white">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod
+            tincidunt ut laoreet
+            dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper
+            suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in
+            vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et
+            accumsan et
+            iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla
+            facilisi.
+        </p>
+    </center>
+</body>
+
+</html>
